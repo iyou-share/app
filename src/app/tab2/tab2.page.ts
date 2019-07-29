@@ -25,7 +25,7 @@ export class Tab2Page {
           webpageUrl: "iyou.city",//environment.apiUrl + '/download'//"http://www.bing.com"
         }
       },
-      scene: this.wechat.Scene.SESSION,   // share to Timeline
+      scene: 0,   // share to Timeline
     }).then(() => {
       console.log("Success");
     }).catch(err => {
